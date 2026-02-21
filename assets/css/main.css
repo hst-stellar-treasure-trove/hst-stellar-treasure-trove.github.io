@@ -25,20 +25,32 @@
 } */
 
 :root {
-  --color-bg: #2d3142;                  /* Dark navy background */
-  --color-white: #ffffff;              /* White text and highlights */
-  --color-lighter-gray: rgba(255, 255, 255, 0.8);  /* Primary text */
-  --color-light-gray: rgba(255, 255, 255, 0.5);     /* Secondary text / labels */
-  --color-gray: rgba(255, 255, 255, 0.15);          /* Borders and lines */
-  --color-dark-gray: rgba(255, 255, 255, 0.06);     /* Overlay or inset bg */
-  --color-sidebar-bg: #4f5d75;         /* Muted slate blue sidebar/nav bg */
-  --color-accent1: #ef8354;            /* Warm orange primary accent */
-  --color-accent1-alt: #cc6f45;        /* Slightly darker orange for hover states */
-  --color-accent2: #a9aaab;        /* Darkened from #bfc0c0 */
-  --color-accent2-alt: #8f9091;    /* Darkened from #a3a3a3 */
-  --color-accent3: #4f5d75;            /* Reused as a cool accent if needed */
-  --color-accent3-alt: #3f4a5e;        /* Darker version of above */
-  --color-select-option-bg: #3a3e50;   /* Slightly brighter than bg for dropdowns */
+  /* Core backgrounds */
+  --color-bg: #0B132B;                  /* Deep Space (main background) */
+  --color-sidebar-bg: #0B132B;          /* Keep sidebar/nav in Deep Space */
+
+  /* Text */
+  --color-white: #ffffff;               /* Primary on-dark text */
+  --color-lighter-gray: rgba(255, 255, 255, 0.85); /* Primary body text on dark */
+  --color-light-gray: rgba(255, 255, 255, 0.55);   /* Secondary text on dark */
+
+  /* Lines / subtle overlays */
+  --color-gray: rgba(255, 255, 255, 0.16);         /* Borders and separators */
+  --color-dark-gray: rgba(255, 255, 255, 0.06);    /* Inset/overlay panels on dark */
+  --color-select-option-bg: #101B3D;               /* Dropdown background (slightly lighter than bg) */
+
+  /* Accents (map to Hyperspace's accent slots) */
+  --color-accent1: #1C4E80;            /* HST Blue (primary accent) */
+  --color-accent1-alt: #163E66;        /* Hover / active state for accent1 */
+
+  --color-accent2: #3A506B;            /* Observatory Slate (secondary accent / section bg) */
+  --color-accent2-alt: #2F4158;        /* Hover / darker slate */
+
+  --color-accent3: #2F5D8A;        /* Dark steel-blue (subtle highlight / section tone) */
+--color-accent3-alt: #244A6E;    /* Deeper hover state */
+
+  /* Optional: subtle “treasure” accent (use sparingly in custom CSS) */
+  --color-gold: #C7A248;
 }
 
 
